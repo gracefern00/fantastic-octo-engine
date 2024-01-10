@@ -19,20 +19,14 @@ body {
 }
 
 .header nav {
+    display: inline-block;
     float: right;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
 .header nav ul li {
-    display: inline-block;
+    float: right;
+    list-style-type: none;
     margin-right: 25px;
-}
-
-.section-headers {
-    color: #37075d;
 }
 
 .body-text {
@@ -42,7 +36,33 @@ body {
 .banner {
     width: 100%;
     height: auto;
-    background-image: url(Cyberpunk\ Bar.png);
     background-size: cover;
     background-position: center;
+}
+
+.work {
+    color: #37075d; 
+}
+
+.about-me {
+    color: #37075d;
+}
+
+.contact-methods {
+    color: #37075d;
+}
+
+.contact-methods h2 {
+    display: inline-block;
+}
+
+.contact-methods nav {
+    display: inline;
+    float: right;
+}
+
+.contact-methods ul li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
 }
