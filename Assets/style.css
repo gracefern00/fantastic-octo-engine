@@ -1,12 +1,34 @@
-*
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5px;
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.5;
     background-color: #f1e0fb;
 }
 
-.header-text {
+.header {
     color: #5412c1;
+}
+
+.header h1 {
+    display: inline-block;
+}
+
+.header nav {
+    float: right;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-right: 25px;
 }
 
 .section-headers {
@@ -15,4 +37,11 @@ body {
 
 .body-text {
     font-style: italic;
+}
+
+.banner {
+    width: 3840px;
+    height: 2160px;
+    background-image: url(Cyberpunk\ Bar.png);
+
 }
