@@ -1,8 +1,18 @@
-* {
-    box-sizing: border-box;
+*
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #f1e0fb;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
+.header-text {
+    color: #5412c1;
+}
+
+.section-headers {
+    color: #37075d;
+}
+
+.body-text {
+    font-style: italic;
 }
