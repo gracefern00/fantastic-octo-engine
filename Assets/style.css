@@ -20,7 +20,7 @@ body {
 .work-format {
     margin-bottom: 10px;
     padding: 50px;
-    height: 150px;
+    height: 200px;
     background-color: whitesmoke;
 }
 
@@ -67,7 +67,7 @@ img {
 }
 
 .placeholder-photo {
-    max-width: 50px;
+    max-width: 125px;
 }
 
 .work {
