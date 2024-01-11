@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 5px;
 }
 
 body {
@@ -10,25 +9,59 @@ body {
     background-color: #f1e0fb;
 }
 
+.banner {
+    width: 98vw;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
 .about-me-format {
     margin-bottom: 10px;
     padding: 50px;
     height: 300px;
     background-color: whitesmoke;
+    color: #37075d;
+    display: flex;
+    align-items: center
+}
+
+.profile-photo {
+    max-height: 150px;
+}
+
+.body-text {
+    font-style: italic;
+    margin: 15px;
 }
 
 .work-format {
     margin-bottom: 10px;
     padding: 50px;
-    height: 200px;
+    height: 300px;
     background-color: whitesmoke;
+    color: #37075d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.placeholder-photo {
+    max-width: 125px;
+    margin: 15px;
 }
 
 .contact-me-format {
     margin-bottom: 10px;
     padding: 50px;
-    height: 100px;
+    height: 50px;
     background-color: whitesmoke;
+    color: #37075d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header {
@@ -45,57 +78,6 @@ body {
 }
 
 .header nav ul li {
-    float: right;
-    list-style-type: none;
-    margin-right: 25px;
-}
-
-.body-text {
-    font-style: italic;
-}
-
-img {
-    width: 1920px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.profile-photo {
-    max-width: 150px;
-    float: left;
-}
-
-.placeholder-photo {
-    max-width: 125px;
-}
-
-.work {
-    color: #37075d; 
-}
-
-.work h2 {
-    float: left;
-}
-
-.about-me {
-    color: #37075d;
-}
-
-.contact-methods {
-    color: #37075d;
-}
-
-.contact-methods h2 {
-    display: inline-block;
-}
-
-.contact-methods nav {
-    display: inline;
-    float: right;
-}
-
-.contact-methods ul li {
     float: right;
     list-style-type: none;
     margin-right: 25px;
