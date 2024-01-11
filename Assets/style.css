@@ -10,6 +10,27 @@ body {
     background-color: #f1e0fb;
 }
 
+.about-me-format {
+    margin-bottom: 10px;
+    padding: 50px;
+    height: 300px;
+    background-color: whitesmoke;
+}
+
+.work-format {
+    margin-bottom: 10px;
+    padding: 50px;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.contact-me-format {
+    margin-bottom: 10px;
+    padding: 50px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
 .header {
     color: #5412c1;
 }
@@ -33,15 +54,28 @@ body {
     font-style: italic;
 }
 
-.banner {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: center;
+img {
+    width: 1920px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-photo {
+    max-width: 150px;
+    float: left;
+}
+
+.placeholder-photo {
+    max-width: 50px;
 }
 
 .work {
     color: #37075d; 
+}
+
+.work h2 {
+    float: left;
 }
 
 .about-me {
